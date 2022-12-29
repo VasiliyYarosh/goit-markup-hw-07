@@ -1,0 +1,28 @@
+/*---------------LOGO--------------------------- */
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--globalActiveColor);
+}
+
+.logo__web {
+    color: var(--globalActiveColor);
+}
+
+.logo__studio {
+    color: black;
+
+    &--white {
+        color: white;
+    }
+}
+
+/* ----------- end of LOGO -------------*/

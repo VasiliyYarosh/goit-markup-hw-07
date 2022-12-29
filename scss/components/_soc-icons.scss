@@ -1,0 +1,45 @@
+.soc {
+    margin-left: 70px;
+    margin-right: 93px;
+}
+
+.soc__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.soc__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    padding: 0px;
+
+}
+
+.soc__item {
+    &:not(:last-child) {
+        margin-right: 10px;
+    }  
+}
+
+.soc__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover {
+        background-color: #2196F3;
+    }
+}

@@ -1,0 +1,43 @@
+.buttons__container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.buttons__list {
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 49px;
+}
+
+.buttons__item {
+    list-style: none;
+
+    &:not(:last-child) {
+        margin-right: 8px;
+    }
+}
+
+
+.buttons__btn {
+    display: flex;
+    padding: 8px 23px;
+    background-color: #F5F4FA;
+    border: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+    &:hover {
+    background-color:  #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: white;
+}
+}
